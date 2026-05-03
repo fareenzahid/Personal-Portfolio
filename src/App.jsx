@@ -21,22 +21,25 @@ const PROJECTS = [
      link: "https://www.eliaselitaxservices.com"
   },
   {
-    title: "AI Chat Application",
+    title: "Zenithflowbot",
     desc: "Real-time chat app powered by OpenAI API with streaming responses and auth.",
     tags: ["React", "OpenAI", "Socket.io"],
     color: "#0ea5e9",
+    link:"https://zenithflowbot.com"
   },
   {
-    title: "SaaS Dashboard",
+    title: "Glowera-frontend",
     desc: "Analytics dashboard with dynamic charts, dark mode and role-based access control.",
     tags: ["React", "Chart.js", "Express"],
     color: "#10b981",
+    link: "https://glowera-frontend.vercel.app/"
   },
   {
-    title: "Portfolio CMS",
+    title: "Amazest",
     desc: "Headless CMS-powered portfolio with dynamic content management and SEO optimization.",
     tags: ["Next.js", "Sanity", "Tailwind"],
     color: "#f59e0b",
+    
   },
 ];
 
@@ -95,7 +98,8 @@ function ProjectCard({ project, index }) {
           </span>
         ))}
       </div>
-      <button className="card-btn" style={{ background: project.color }}>
+      <button className="card-btn" style={{ background: project.color }}
+        onClick={() => window.open(project.link, "_blank")}>
         View Project →
       </button>
     </div>
