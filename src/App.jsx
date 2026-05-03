@@ -14,10 +14,11 @@ const SKILLS = [
 
 const PROJECTS = [
   {
-    title: "E-Commerce Platform",
+    title: "Eliaselitaxservices",
     desc: "Full-stack MERN app with payment integration, admin dashboard & real-time updates.",
     tags: ["React", "Node.js", "MongoDB"],
     color: "#7c3aed",
+     link: "https://www.eliaselitaxservices.com"
   },
   {
     title: "AI Chat Application",
