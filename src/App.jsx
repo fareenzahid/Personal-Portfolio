@@ -39,7 +39,7 @@ const PROJECTS = [
     desc: "Headless CMS-powered portfolio with dynamic content management and SEO optimization.",
     tags: ["Next.js", "Sanity", "Tailwind"],
     color: "#f59e0b",
-    link:"amazest.netlify.app"
+    link:"https://amazest.netlify.app/"
     
   },
 ];
